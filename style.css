@@ -44,7 +44,7 @@ body {
     color: #999;
 }
 
-.portrait {
+.portrait {// possibily here
     /* background-image: url(images/Amanda.jpg); */
     background-size: 75%;
     background-position: center;
@@ -180,7 +180,9 @@ body {
 
 .graph li {
     background: rgb(104,97,232);
-background: linear-gradient(90deg, rgba(104,97,232,1) 0%, rgba(190,0,255,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(104,97,232,1) 0%, rgba(190,0,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(104,97,232,1) 0%, rgba(190,0,255,1) 100%);
+    background: linear-gradient(to right, rgba(104,97,232,1) 0%, rgba(190,0,255,1) 100%);
     color: #fff;
     padding: 0.5em 1em;
     margin: 0.4em 0;
@@ -228,7 +230,7 @@ background: linear-gradient(90deg, rgba(104,97,232,1) 0%, rgba(190,0,255,1) 100%
   } */
 
 @media ( min-width: 768px ) {
-    .portrait {
+    .portrait {// and here
         position: fixed;
         left: 0;
         top: 0;
