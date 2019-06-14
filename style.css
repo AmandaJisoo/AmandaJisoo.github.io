@@ -51,6 +51,7 @@ body {
     padding-top: 100.25%; /* 16:9 */
 }
 
+
 .profile {
     padding: 5%;
     min-height: 5000px;
@@ -128,17 +129,29 @@ body {
 }
 
 .icons {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .icons a {
-    /* <img src="images/icons2.png" alt="Icon" width="128" height="128"> */
-    background-image: url(images/icons2.png);
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    text-indent: -9999px;
+  background-image: url(images/linkedIn.jpg);
+  display: block;
+  max-width:230px;
+  max-height:800px;
+  width: auto;
+  height: auto;
 }
+
+/* .icons a {
+    <img width="50" height="200" src="images/linkedIn.jpg">;
+    background-image: url(images/linkedIn.jpg);
+    /* background-position-x: center; */
+    /* background-position-y: top; */
+    /* width: 100px;
+    height: 100px; */
+    display: inline-block;
+    /* text-indent: -9999px; */
+    text-indent: -9999px;
+} */
 
 .icons a.LinkedIn { background-position: left top; }
 .icons a.GitHub  { background-position: center top; }
@@ -243,6 +256,7 @@ background: linear-gradient(90deg, rgba(104,97,232,1) 0%, rgba(190,0,255,1) 100%
         padding: 0 10px;
         box-sizing: border-box;
     }
+
     .timeline li:nth-child(even) {
         margin-left: auto;
         margin-top: -120px;
