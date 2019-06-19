@@ -1,26 +1,19 @@
-.portrait body {
-  margin: 0;
-  padding: 0;
-  background: #313131;
-}
 .portrait {
-  width: 800px;
-  height: 400px;
-  background-image: url(images/Amanda.jpg);
+  width: 359px;
+  height: 802px;
+  background-image: url(images/portrait1.jpg);
   margin: 100px auto;
-  animation: slide 10s infinite;
+  animation: portraitAnm 10s infinite;
 }
-@@keyframes portrait {
-  25% {
-    background-image: url(images/Amanda.jpg);
+
+@keyframes portraitAnm {
+  33% {
+    background-image: url(images/portrait1.jpg);
   }
-  50% {
-    background-image: url(images/Amanda.jpg);
-  }
-  75% {
-    background-image: url(images/me3.jpg);
+  66% {
+    background-image: url(images/portrait2.jpg);
   }
   100% {
-    background-image: url(images/me4.jpg);
+    background-image: url(images/portrait3.jpg);
   }
 }
