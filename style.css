@@ -148,10 +148,10 @@ body {
     /* background-position-y: top; */
     /* width: 100px;
     height: 100px; */
-    display: inline-block;
+    /*display: inline-block;*/
     /* text-indent: -9999px; */
-    text-indent: -9999px;
-} */
+    /*text-indent: -9999px;*/
+/*} */
 
 .icons a.LinkedIn { background-position: left top; }
 .icons a.GitHub  { background-position: center top; }
