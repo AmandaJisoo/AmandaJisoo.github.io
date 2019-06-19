@@ -17,6 +17,18 @@
     }
 }
 
+@keyframes portraitAnm {
+  0% {
+    background-image: url(images/portrait1.jpg);
+  }
+  50% {
+    background-image: url(images/portrait2.jpg);
+  }
+  100% {
+    background-image: url(images/portrait3.jpg);
+  }
+}
+
 
 /* CSS Reset */
 body, h1, h2, h3, p, ul, dl, dd {
@@ -44,17 +56,21 @@ body {
     color: #999;
 }
 
-.portrait {// possibily here
-    /* background-image: url(images/Amanda.jpg); */
-    background-size: 75%;
-    background-position: center;
-    padding-top: 100.25%; /* 16:9 */
-}
-
-
 .profile {
     padding: 5%;
     min-height: 5000px;
+}
+
+.portraitportraitAnm{
+  width: 359px;
+  height: 802px;
+   /* margin: 0px auto;   */
+  /* background-position: center; */
+  animation: portraitAnm 10s infinite;
+  background-size: 100%;
+  /* background-position: fixed; */
+  /* padding-top: 28%; /* 16:9 */ */ */ */
+  background-repeat: no-repeat;
 }
 
 .profile-header,
@@ -213,30 +229,15 @@ body {
     color: white;
 }
 
-  /* .slider {
-    width: 800px;
-    height: 400px;
-    background-image: url(images/Amanda.jpg);
-    margin: 100px auto;
-    animation: slide 10s infinite;
-  } */
-
-  /* .slider {
-    width: 800px;
-    height: 400px;
-    background-image: url(images/Amanda.jpg);
-    margin: 100px auto;
-    animation: slide 10s infinite;
-  } */
-
 @media ( min-width: 768px ) {
-    .portrait {// and here
+    portraitAnm {
         position: fixed;
         left: 0;
         top: 0;
-        width: 40vw;
+        /* width: 40vw;
+        height: 100vh; */
+        width: 60vw;
         height: 100vh;
-        padding: 0
     }
 
     .profile {
