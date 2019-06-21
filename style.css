@@ -17,7 +17,8 @@
     }
 }
 
-@keyframes portraitAnm {
+@keyframes portraitSlideAnm {
+/* portraitPicAnm */
   0% {
     background-image: url(images/firstPic.jpg);
   }
@@ -64,7 +65,8 @@ body {
 .portraitAnm {
   /* I set backgriund imahe for sanity check and the path is working */
   background-image: url(images/firstPic.jpg);
-  animation: portraitAnm 10s infinite;
+  /* animation: portraitPicAnm 10s infinite; */
+  animation: portraitSlideAnm 10s infinite;
   background-size: 100%;
   background-position: fixed;
   background-position: center;
