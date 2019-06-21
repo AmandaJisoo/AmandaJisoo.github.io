@@ -19,13 +19,13 @@
 
 @keyframes portraitAnm {
   0% {
-    background-image: url(images/portrait1.jpg);
+    background-image: url(images/firstPic.jpg);
   }
   50% {
-    background-image: url(images/portrait2.jpg);
+    background-image: url(images/secondPic.jpg);
   }
   100% {
-    background-image: url(images/portrait3.jpg);
+    background-image: url(images/thridImage.jpg);
   }
 }
 
@@ -61,21 +61,19 @@ body {
     min-height: 5000px;
 }
 
-.portraitportraitAnm{
-  width: 359px;
-  height: 802px;
-   /* margin: 0px auto;   */
-  /* background-position: center; */
+  .portraitAnm {
+  background-image: url(images/firstPic.jpg);
   animation: portraitAnm 10s infinite;
   background-size: 100%;
-  /* background-position: fixed; */
-  /* padding-top: 28%; /* 16:9 */ */ */ */
+  background-position: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  /* padding-top: 56.25%; /* 16:9 */ */ */ */
 }
 
 .profile-header,
 .profile-section {
-    padding-bottom: 14%;
+     padding-bottom: 14%;
      font-size: 20px;
 }
 
@@ -230,18 +228,18 @@ body {
 }
 
 @media ( min-width: 768px ) {
-    portraitAnm {
+    .portraitAnm {
+        /* background-image: url(images/firstPic.jpg); */
         position: fixed;
         left: 0;
         top: 0;
-        /* width: 40vw;
-        height: 100vh; */
-        width: 60vw;
+        padding: 0;
+        width: 40vw;
         height: 100vh;
     }
 
     .profile {
-        margin-left: 45vw;
+        margin-left: 40vw;
     }
 
     .name {
