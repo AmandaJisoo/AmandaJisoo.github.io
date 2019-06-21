@@ -62,7 +62,7 @@ body {
 }
 
   .portraitAnm {
-  background-image: url(images/firstPic.jpg);
+  background-image: url(images/firstPic.jpg); // for temporal check
   animation: portraitAnm 10s infinite;
   background-size: 100%;
   background-position: fixed;
