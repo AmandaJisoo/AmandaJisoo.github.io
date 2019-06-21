@@ -61,8 +61,9 @@ body {
     min-height: 5000px;
 }
 
-  .portraitAnm {
-  background-image: url(images/firstPic.jpg); // for temporal check
+.portraitAnm {
+  /* I set backgriund imahe for sanity check and the path is working */
+  background-image: url(images/firstPic.jpg);
   animation: portraitAnm 10s infinite;
   background-size: 100%;
   background-position: fixed;
