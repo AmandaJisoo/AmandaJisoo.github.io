@@ -18,11 +18,10 @@
 }
 
 @keyframes portraitSlideAnm {
-/* portraitPicAnm */
   0% {
     background-image: url(images/firstPic.jpg);
   }
-  50% {
+  75% {
     background-image: url(images/secondPic.jpg);
   }
   100% {
@@ -64,14 +63,12 @@ body {
 
 .portraitAnm {
   /* I set backgriund imahe for sanity check and the path is working */
-  background-image: url(images/firstPic.jpg);
   /* animation: portraitPicAnm 10s infinite; */
-  animation: portraitSlideAnm 10s infinite;
+  animation: portraitSlideAnm 8s infinite;
   background-size: 100%;
   background-position: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* padding-top: 56.25%; /* 16:9 */ */ */ */
 }
 
 .profile-header,
@@ -105,7 +102,6 @@ body {
 }
 
 .name-job {
-    /* font-size: 30px; */
     display: inline-block;
     color: white;
     vertical-align: top;
@@ -146,17 +142,30 @@ body {
 }
 
 .icons {
-    margin: 40px 0;
+    margin: 0px;
+     /* background-image: url(images/icons2.png); */
+    background-repeat: no-repeat; */
 }
 
+
 .icons a {
+    background-image: url(images/icons2.png);
+    width: 45px;
+    height: 60px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+/* mine */
+/* .icons a {
   background-image: url(images/linkedIn.jpg);
   display: block;
   max-width:230px;
   max-height:800px;
   width: auto;
   height: auto;
-}
+} */
 
 /* .icons a {
     <img width="50" height="200" src="images/linkedIn.jpg">;
@@ -170,10 +179,10 @@ body {
     /*text-indent: -9999px;*/
 /*} */
 
-.icons a.LinkedIn { background-position: left top; }
-.icons a.GitHub  { background-position: center top; }
+.icons a.LinkedIn { background-position: left; }
+.icons a.GitHub  { background-position: right; }
 
-.icons a:hover { background-position-y: bottom; }
+/* .icons a:hover { background-position-y: bottom; } */
 
 .timeline {
     font-size: 1.3em;
@@ -232,7 +241,6 @@ body {
 
 @media ( min-width: 768px ) {
     .portraitAnm {
-        /* background-image: url(images/firstPic.jpg); */
         position: fixed;
         left: 0;
         top: 0;
