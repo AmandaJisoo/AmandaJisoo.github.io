@@ -58,7 +58,9 @@ body {
 
 .profile {
     padding: 5%;
+    margin-top: -50px;
     min-height: 5000px;
+    background-color: #111;
 }
 
 .portraitAnm {
@@ -69,6 +71,7 @@ body {
   background-position: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 75.25%; /* 16:9 */ */
 }
 
 .profile-header,
@@ -140,45 +143,36 @@ body {
     margin-left: -0.3em;
     position: relative;
 }
-
 .icons {
-  margin: 20px 0;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  display: inline-block;
 }
 
+.icons2 {
+  margin: 0px 0;
+  /* margin: 5px 0;// it is not doing nything */
+  display: inline-block;
+}
+.icons2 a {
+  background-image: url(images/gitHub.png);
+  width:50px;
+  height:50px;
+  text-indent: -9999px;
+  display: inline-block;
+}
 
 .icons a {
-    background-image: url(images/icons2.png);
-    width: 45px;
-    height: 60px;
+    background-image: url(images/LinkedIn.jpg);
+    width: 50px;
+    height: 50px;
     background-repeat: no-repeat;
     display: inline-block;
     text-indent: -9999px;
 }
 
-/* mine */
-/* .icons a {
-  background-image: url(images/linkedIn.jpg);
-  display: block;
-  max-width:230px;
-  max-height:800px;
-  width: auto;
-  height: auto;
-} */
-
-/* .icons a {
-    <img width="50" height="200" src="images/linkedIn.jpg">;
-    background-image: url(images/linkedIn.jpg);
-    /* background-position-x: center; */
-    /* background-position-y: top; */
-    /* width: 100px;
-    height: 100px; */
-    /*display: inline-block;*/
-    /* text-indent: -9999px; */
-    /*text-indent: -9999px;*/
-/*} */
-
-.icons a.LinkedIn { background-position: left; }
-.icons a.GitHub  { background-position: right; }
+.icons a.LinkedIn { background-position: center; }
+.icons2 a.GitHub  { background-position: center; }
 
 /* .icons a:hover { background-position-y: bottom; } */
 
