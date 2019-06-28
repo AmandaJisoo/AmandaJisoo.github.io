@@ -35,9 +35,15 @@
 body, h1, h2, h3, p, ul, dl, dd {
     margin: 0;
     padding: 0;
-    /* font-size: 25px; */
 }
 
+/* p {
+  word-wrap: break-word;
+} */
+
+.profile-section {
+  word-wrap: break-word;
+}
 li {
     list-style-type: none;
 }
@@ -59,14 +65,10 @@ body {
 
 .profile {
     padding: 5%;
-    /* margin-top: -50px; */
     min-height: 5000px;
-    background-color: #111;
 }
 
 .portraitAnm {
-  /* I set backgriund imahe for sanity check and the path is working */
-  /* animation: portraitPicAnm 10s infinite; */
   animation: portraitSlideAnm 8s infinite;
   background-size: 100%;
   background-position: fixed;
@@ -173,11 +175,10 @@ body {
 .icons a.LinkedIn { background-position: center; }
 .icons2 a.GitHub  { background-position: center; }
 
-/* .icons a:hover { background-position-y: bottom; } */
-
 .timeline {
     font-size: 1.3em;
-    color: #666;
+    /* color: #666; */
+    color: white;
 }
 
 .timeline li {
@@ -229,6 +230,7 @@ body {
     overflow: hidden;
     color: white;
 }
+
 
 @media ( min-width: 768px ) {
     .portraitAnm {
