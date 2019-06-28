@@ -59,9 +59,9 @@ body {
 
 .profile {
     padding: 5%;
-    margin-top: -50px;
+    /* margin-top: -50px; */
     min-height: 5000px;
-    /* background-color: #111; */
+    background-color: #111;
 }
 
 .portraitAnm {
