@@ -1,5 +1,4 @@
 /* Animation */
-/* cite the pic */
 @keyframes rolling {
     0% {
         transform: translateY(0);
@@ -37,10 +36,6 @@ body, h1, h2, h3, p, ul, dl, dd {
     padding: 0;
 }
 
-/* p {
-  word-wrap: break-word;
-} */
-
 .profile-section {
   word-wrap: break-word;
 }
@@ -68,7 +63,7 @@ body {
     min-height: 5000px;
 }
 
-.portraitAnm {
+.portrait-anm {
   animation: portraitSlideAnm 8s infinite;
   background-size: 100%;
   background-position: fixed;
@@ -173,7 +168,7 @@ body {
 }
 
 .icons a.LinkedIn { background-position: center; }
-.icons2 a.GitHub  { background-position: center; }
+.icons2 a.git-hub { background-position: center; }
 
 .timeline {
     font-size: 1.3em;
@@ -233,7 +228,7 @@ body {
 
 
 @media ( min-width: 768px ) {
-    .portraitAnm {
+    .portrait-anm {
         position: fixed;
         left: 0;
         top: 0;
