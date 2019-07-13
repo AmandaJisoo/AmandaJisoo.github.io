@@ -179,7 +179,6 @@ body {
 }
 
 .icons {
-<<<<<<< HEAD
 margin-bottom: 10px;
 margin-top: 40px;
 margin-right: 1rem;
@@ -193,7 +192,6 @@ font-size: 2vw;
     font-size: 2vw;
 }
 
-<<<<<<< HEAD
 .fa-github-square:hover {
     color: blue;
     box-shadow: 0 0 0 4px rgb(239, 235, 241);
@@ -240,7 +238,6 @@ font-size: 2vw;
 .graph li::before {
     content: attr(data-score);
     float: right;
-<<<<<<< HEAD
 }
 
 ul {
@@ -254,8 +251,6 @@ ul {
 }
 
 .graph li{width: 100%;font-weight: bolder;}
-
-
 
 .list {
     color: #666;
@@ -302,6 +297,7 @@ ul {
         box-sizing: border-box;
     }
 
+    
     .timeline {
         display: flex;
         list-style: none;
