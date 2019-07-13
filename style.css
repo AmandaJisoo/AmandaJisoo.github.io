@@ -100,7 +100,6 @@ body {
     color: #999;
 }
 
-<<<<<<< HEAD
 .intro {
     display: flex;
     word-break: break-word;
@@ -109,8 +108,6 @@ body {
     font-size: 2em;
   }
 
-=======
->>>>>>> 84a029590ea2d150c1eb6f69105c5f95d9f69df3
 .profile {
     padding: 5%;
     min-height: 5000px;
@@ -188,12 +185,6 @@ margin-top: 40px;
 margin-right: 1rem;
 display: inline-block;
 font-size: 2vw;
-=======
-  margin-bottom: 10px;
-  margin-top: 40px;
-  display: inline-block;
-  margin-right: 1rem;
->>>>>>> 84a029590ea2d150c1eb6f69105c5f95d9f69df3
 }
 
 .icons2 {
@@ -216,27 +207,6 @@ font-size: 2vw;
 
 
 .timeline p {
-=======
-.icons2 a {
-  width:70px;
-  height:70px;
-  text-indent: -9999px;
-  display: inline-block;
-}
-
-.icons a {
-    width: 70px;
-    height: 70px;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
-    display: inline-block;
-    margin: 3em;
-}
-
-.timeline {
-    font-size: 1.3em;
-    
->>>>>>> 84a029590ea2d150c1eb6f69105c5f95d9f69df3
     color: white;
     font-size: 1vw;
 }
@@ -284,12 +254,8 @@ ul {
 }
 
 .graph li{width: 100%;font-weight: bolder;}
-=======
-s
-}
 
-.graph li{ width: 100%;}
->>>>>>> 84a029590ea2d150c1eb6f69105c5f95d9f69df3
+
 
 .list {
     color: #666;
@@ -336,10 +302,6 @@ s
         box-sizing: border-box;
     }
 
-<<<<<<< HEAD
-    
-=======
->>>>>>> 84a029590ea2d150c1eb6f69105c5f95d9f69df3
     .timeline {
         display: flex;
         list-style: none;
@@ -349,15 +311,10 @@ s
     .timeline li:nth-child(even) {
         margin-left: auto;
         align-self: flex-start;
-<<<<<<< HEAD
     } 
 
     .timeline p {
         color: white;
         font-size: 1.2em;
     }
-=======
-
-    } 
->>>>>>> 84a029590ea2d150c1eb6f69105c5f95d9f69df3
 }
