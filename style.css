@@ -38,7 +38,7 @@
 
 /* CSS Reset */
 body, h1, h2, h3, p, ul, dl, dd {
-    margin: 0;
+    margin: 1 em;
     padding: 0;
 }
 
@@ -62,8 +62,15 @@ body, h1, h2, h3, p, ul, dl, dd {
 }
 
 .profile-section {
-  word-wrap: break-word;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around */
 }
+
 
 li {
     list-style-type: none;
@@ -84,7 +91,6 @@ body {
     color: #999;
 }
 
-
 .profile {
     padding: 5%;
     min-height: 5000px;
@@ -99,8 +105,7 @@ body {
   padding-top: 75.25%;
 }
 
-.profile-header,
-.profile-section {
+.profile-header {
      padding-bottom: 14%;
      font-size: 20px;
 }
@@ -108,7 +113,7 @@ body {
 .profile-section h2 {
     border-top: 3px solid;
     color: orangered;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 0.5em 0;
     position: sticky;
     top: 0;
@@ -158,15 +163,11 @@ body {
     box-shadow: inset 0 0 10px 10px #111;
 }
 
-/* .intro {
-  color: white;
-} */
-
-/* .icons  */
-#icons1 {
+.icons {
   margin-bottom: 10px;
   margin-top: 40px;
   display: inline-block;
+  margin-right: 1rem;
 }
 
 .icons2 {
@@ -175,29 +176,24 @@ body {
 }
 
 .icons2 a {
-  /* background-image: url(images/gitHub.svg); */
-  /* width:70px;
-  height:70px; */
+  width:70px;
+  height:70px;
   text-indent: -9999px;
   display: inline-block;
 }
 
 .icons a {
-    /* background-image: url(images/LinkedIn.jpg); */
-    /* <a class="LinkedIn" href="https://www.linkedin.com/in/amandjpark/" alt="LinkedIn link" title="link" target="_blank">LinkedIn</a>  */
-    /* width: 70px;
-    height: 70px; */
+    width: 70px;
+    height: 70px;
     background-repeat: no-repeat;
-    text-indent: -9995px;
+    text-indent: -9999px;
     display: inline-block;
+    margin: 3em;
 }
-
-.icons a.LinkedIn { background-position: center; }
-.icons2 a.git-hub { background-position: center; }
 
 .timeline {
     font-size: 1.3em;
-    /* color: #666; */
+    
     color: white;
 }
 
@@ -231,10 +227,10 @@ body {
 .graph li::before {
     content: attr(data-score);
     float: right;
-
+s
 }
 
-.graph li{ width: 100%; }
+.graph li{ width: 100%;}
 
 .list {
     color: #666;
@@ -271,20 +267,27 @@ body {
     }
 
     .timeline {
-       font-size: 20px;
-      margin: 0 -10px;
+        font-size: 2rem;
+        margin: 0 -10px;
     }
 
     .profile-section
     .timeline li {
         width: 50%;
-        padding: 0 10px;
         box-sizing: border-box;
+    }
+
+    .timeline {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
     }
 
     .timeline li:nth-child(even) {
         margin-left: auto;
-        margin-top: -120px;
-        margin-bottom: -120px;
-    }
+        /* justify-content: left; */
+        align-self: flex-start;
+
+    }  
+    //column - > 
 }
