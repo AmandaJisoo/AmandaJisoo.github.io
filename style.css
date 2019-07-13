@@ -285,9 +285,7 @@ s
 
     .timeline li:nth-child(even) {
         margin-left: auto;
-        /* justify-content: left; */
         align-self: flex-start;
 
-    }  
-    //column - > 
+    } 
 }
