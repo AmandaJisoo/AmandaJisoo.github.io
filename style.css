@@ -233,12 +233,6 @@ font-size: 40px;
     line-height: 2em; 
 }
 
-.timeline .year {
-  font-size: 2em;
-  color: #ff7f50;
-  font-style: italic;
-}
-
 li {
     display: block;
     margin-block-start: 1em;
@@ -285,6 +279,11 @@ li {
     color: #ffffff;
 }
 
+.timeline .year {
+    font-size: 2em;
+    color: #ff7f50;
+    font-style: italic;
+  }
 
 @media ( min-width: 768px ) {
     .portrait-anm {
