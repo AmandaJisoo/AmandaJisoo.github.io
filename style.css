@@ -345,4 +345,8 @@ li {
         margin-inline-end: 0px;
         line-height: 2em; 
     }
+
+    .timeline .year {
+        font-style: italic;
+      }
 }
