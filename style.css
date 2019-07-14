@@ -58,7 +58,7 @@ body, h1, h2, h3, p, ul, dl, dd {
 }
 
 .name-title {
-    font-size: 1.8em;
+    font-size: 5rem;
     line-height: 0.7;
     color: #ff7f50;
     margin-top: 0;
@@ -307,6 +307,13 @@ li {
         font-size: 4vw;
     }
 
+    
+    .name-title {
+        font-size: 9rem;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+    }
+
     .timeline {
         font-size: 2rem;
         margin: 0 -10px;
@@ -345,7 +352,7 @@ li {
         line-height: 2em; 
     }
 
-    .timeline .year {
+    .timeline .year ul{
         font-style: italic;
       }
 }
