@@ -1,20 +1,23 @@
 /* Animation */
 @keyframes rolling {
     0% {
-        transform: translateY(0);
-    }
-    25% {
+        transform: translateY(0%);
+        animation-delay: 1 sec; 
+    20% {
         transform: translateY(-20%);
     }
-    50% {
+    40% {
         transform: translateY(-40%);
     }
-    75% {
+    60% {
         transform: translateY(-60%);
-    }
-    100% {
+    }s
+    80% {
         transform: translateY(-80%);
     }
+    100% {
+        transform: translateY(0%);
+    } 
 }
 
 @keyframes portraitSlideAnm {
@@ -103,6 +106,7 @@ body {
     color:white;
     font-size: larger;
     line-height: 1.5cm;
+    font-size: 6vw;
     
   }
 
@@ -293,10 +297,6 @@ li {
         padding: 0;
         width: 40%;
         height: 100vh;
-    }
-
-    .intro {
-        font-size: 2vw;
     }
 
     .profile {
