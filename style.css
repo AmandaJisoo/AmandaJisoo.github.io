@@ -102,6 +102,8 @@ body {
     word-break: break-word;
     color:white;
     font-size: larger;
+    line-height: 1.5cm;
+    
   }
 
 .profile {
@@ -221,15 +223,6 @@ font-size: 40px;
     float: right;
 }
 
-/* ul {
-    display: block;
-    list-style-type: disc;
-    display: block;
-    list-style-type: disc;
-    margin-inline-end: 2.5em;
-    line-height: 2em; 
-    
-} */
 
 .timeline li {
     color: white;
