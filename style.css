@@ -103,14 +103,14 @@ body {
 }
 
 .portrait-anm {
-  animation: portraitSlideAnm 4s infinite;
-  background-size: 100%;
-  background-position: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 75.25%;
-  width: 40%
-  height: 40%
+    animation: portraitSlideAnm 4s infinite;
+    background-size: 100%;
+    background-position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 75.25%;
+    width: 40%
+    height: 40%
 }
 
 .profile-header {
@@ -174,11 +174,11 @@ body {
 }
 
 .icons {
-margin-bottom: 10px;
-margin-top: 40px;
-margin-right: 1rem;
-display: inline-block;
-font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 1rem;
+    display: inline-block;
+    font-size: 40px;
 }
 
 .icons2 {
@@ -291,7 +291,6 @@ li {
         width: 40%;
         height: 100vh;
     }
-
 
     .profile {
         margin-left: 40vw;

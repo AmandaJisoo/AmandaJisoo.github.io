@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AP</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="/Scripts/libs/styles.css">
+    <link rel="stylesheet" href="/styles/v01/style-assets/icons/v06/style.css">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        //ga('create', 'xxx', 'auto');
+
+    </script>
+    <!-- Chart Beat-->
+    <script type='text/javascript'>
+    (function() {
+        /** CONFIGURATION START **/
+        var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+
+        _sf_async_config.uid = 11689; 
+        _sf_async_config.domain = 'newsroom.ap.org'; 
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.sections = ''; //CHANGE THIS TO YOUR SECTION NAME(s)
+        _sf_async_config.authors = ''; //CHANGE THIS TO YOUR AUTHOR NAME(s)
+        /** CONFIGURATION END **/
+        function loadChartbeat() {
+            var e = document.createElement('script');
+            var n = document.getElementsByTagName('script')[0];
+            e.type = 'text/javascript';
+            e.async = true;
+            e.src = '//static.chartbeat.com/js/chartbeat.js';
+            n.parentNode.insertBefore(e, n);
+        }
+        loadChartbeat();
+     })();
+</script>
+    <script src="/bundles/lazy?v=JeZAMeQkLsnFklDELyzs6puTGE_Sre8KYFYuEx64N0Q1"></script>
+
+</head>
+<body>
+    
+<app-root></app-root>
+    
+
+    <script type="text/javascript" src="/Scripts/libs/runtime.js?285247087"></script>
+    <script type="text/javascript" src="/Scripts/libs/polyfills.js?285247087"></script>
+
+    <script type="text/javascript" src="/Scripts/libs/main.js?285247087"></script>
+
+</body>
+</html>
