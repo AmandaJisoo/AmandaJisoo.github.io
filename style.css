@@ -77,10 +77,6 @@ body, h1, h2, h3, p, ul, dl, dd {
 }
 
 
-li {
-    list-style-type: none;
-}
-
 h1, h2, {
     font-size: 100%;
     font-weight: normal;
@@ -104,7 +100,6 @@ body {
     display: flex;
     word-break: break-word;
     color:white;
-    /* font-size: 1 rem; */
     font-size: 2em;
   }
 
@@ -130,12 +125,10 @@ body {
 .profile-section h2 {
     border-top: 3px solid;
     color: orangered;
-    /* margin-bottom: 20px; */
-    padding: 0.5em 0;
     position: sticky;
-    top: 0;
     background-color: #111;
-    box-shadow: 0 0 50px 10px #111;
+    box-shadow: 10px 10px 30px 10px #111;
+    font-size: 2em;
 }
 
 .name {
@@ -193,32 +186,16 @@ font-size: 2vw;
 }
 
 .fa-github-square:hover {
-    color: blue;
+    color: orange;
     box-shadow: 0 0 0 4px rgb(239, 235, 241);
 	transition: background 0.2s, color 0.2s;	
 }
 .fa-linkedin-in:hover {
-    color: blue;
+    color: orange;
     box-shadow: 0 0 0 4px rgb(239, 235, 241);
 	transition: background 0.2s, color 0.2s;
 }
 
-
-.timeline p {
-    color: white;
-    font-size: 1vw;
-}
-
-.timeline li {
-    padding-bottom: 30px;
-}
-
-.timeline .year {
-  font-size: 2em;
-  color: orange;
-  font-style: italic;
-  font-family: cursive;
-}
 
 .timeline li:last-child {
     padding-bottom: 0;
@@ -241,8 +218,37 @@ font-size: 2vw;
 }
 
 ul {
+    /* display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: -40px;
+    margin-inline-end: 80px; */
+
     display: block;
     list-style-type: disc;
+    display: block;
+    list-style-type: disc;
+    margin-inline-end: 2.5em;
+    line-height: 2em; 
+    
+}
+
+.timeline li {
+    padding-bottom: 30px;
+    color: white;
+    font-size: 1.9vw;
+}
+
+.timeline .year {
+  font-size: 2em;
+  color: #ff7f50;
+  font-style: italic;
+  font-family: cursive;
+}
+
+li {
+    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: -40px;
@@ -257,14 +263,34 @@ ul {
 }
 
 .list dt {
-    color: orange;
+    color:#ff7f50;
     float: left;
     width: 4em;
+    font-size:2em;
 }
 
 .list dd {
     overflow: hidden;
     color: white;
+    font-size:2em;
+}
+
+
+.winfoHack, .PersonalWeb{
+    display: block;
+    margin: 2em 0em 2em 0px;
+    width: 150px;
+    /* height: 44px; */
+    cursor: pointer;
+    background: #F67280;
+    box-shadow: rgba(255, 163, 148, 0.1) 0px 5px 10px;
+    border: none;
+    border-radius: 7px;
+    font-family: Alegreya;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
 }
 
 
@@ -276,6 +302,10 @@ ul {
         padding: 0;
         width: 40vw;
         height: 100vh;
+    }
+
+    .intro {
+        font-size: 2vw;
     }
 
     .profile {
@@ -292,12 +322,11 @@ ul {
     }
 
     .profile-section
-    .timeline li {
-        width: 50%;
+    .timeline ul {
         box-sizing: border-box;
     }
 
-    
+    /* it misy be something to do with*/
     .timeline {
         display: flex;
         list-style: none;
@@ -305,12 +334,23 @@ ul {
     }
 
     .timeline li:nth-child(even) {
-        margin-left: auto;
+        /* margin-left: auto; */
+        /* fiex containr is causing an issue */
         align-self: flex-start;
+        padding-left: 20vw;
+        margin-inline-end: 0px;
+        margin-inline-start: 0.2vw;
+        margin-block-end: -1;
+        padding-inline-start: 20%; 
     } 
 
-    .timeline p {
+
+    .timeline ul p{
         color: white;
         font-size: 1.2em;
+        line-height: 1.5em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        line-height: 2em; 
     }
 }
