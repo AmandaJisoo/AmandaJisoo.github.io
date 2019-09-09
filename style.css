@@ -35,7 +35,6 @@
   }
 }
 
-
 /* CSS Reset */
 body, h1, h2, h3, p, ul, dl, dd {
     margin: 1 em;
@@ -44,12 +43,23 @@ body, h1, h2, h3, p, ul, dl, dd {
 
 .p {
     color: white;
-    font-size: 
+}
+
+.intro {
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Barlow', sans-serif;
+}
+
+.profile-section {
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 .h1 {
     display: block;
-    font-size: 2em;
+    font-size: 100%;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -74,6 +84,7 @@ body, h1, h2, h3, p, ul, dl, dd {
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
+    font-size: 1.5em;
     /* justify-content: space-around */
 }
 
@@ -141,8 +152,8 @@ body {
     display: flex;
     word-break: break-word;
     color: white;
-    font-size: 1.4em;
-    line-height: 1.5cm;
+    font-size: 2.5em;
+    line-height: 2cm;
 }
 
 .name-of-jobs {
@@ -277,12 +288,16 @@ li {
 }
 
 .timeline .year {
-    font-size: 2em;
+    font-size: 2.2em;
     color: #ff7f50;
     font-style: italic;
   }
 
-@media ( min-width: 768px ) {
+h4 {
+    font-size: 2em;
+}
+
+@media (min-width: 768px ) {
     .portrait-anm {
         position: fixed;
         left: 0;
@@ -290,6 +305,7 @@ li {
         padding: 0;
         width: 40%;
         height: 100vh;
+        font-size: 2.5em;
     }
 
     .profile {
