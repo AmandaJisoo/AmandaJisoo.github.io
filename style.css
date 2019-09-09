@@ -332,6 +332,11 @@ h4 {
     display: flex;
     flex-direction: column;
 }
+
+.icon-set {
+    display: flex;
+    flex-direction: row;
+}
 @media (min-width: 768px ) {
     .portrait-anm {
         position: fixed;
