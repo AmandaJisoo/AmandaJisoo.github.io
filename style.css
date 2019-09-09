@@ -74,7 +74,7 @@ body, h1, h2, h3, p, ul, dl, dd {
     margin-top: 0;
     position: relative;
     margin-left: -2vw;
-    /* margin-left: 2vw; */
+    margin-bottom: 5px;
 }
 
 .profile-section {
@@ -277,14 +277,10 @@ li {
     font-size: 1.5em;
 }
 
-.btn {
+.winfoHack, .PersonalWeb, .play-me, .button {
     display: flex;
     flex-direction: row;
-}
-
-.winfoHack, .PersonalWeb, .play-me {
-    display: flex;
-    margin: 2em 1em 2em 1px;
+    margin: 5px 5px;
     width: 150px;
     cursor: pointer;
     background: #F67280;
@@ -294,7 +290,7 @@ li {
     font-family: Alegreya;
     font-weight: bold;
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
     color: #ffffff;
 }
@@ -394,8 +390,16 @@ h4 {
     .timeline .year ul{
         font-style: italic;
         }
-    .intro {
+    .body {
         font-size: 2em;
-        margin-left: 3%;
+        margin-left: 5%;
     }
+    .profile-header {
+        margin-left: 3%; 
+    }
+    .btn {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
