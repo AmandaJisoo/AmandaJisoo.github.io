@@ -1,4 +1,4 @@
-/* Animation */
+/* Animation
 @keyframes rolling {
     0% {
         transform: translateY(100%);
@@ -9,13 +9,13 @@
     50% {
         transform: translateY(-40%);
     }
-    75% {
+    70% {
         transform: translateY(-60%);
     }
     100% {
-        transform: translateY(-80%);
+        transform: translateY(-100%);
     }
-}
+} */
 
 @keyframes portraitSlideAnm {
   0% {
@@ -86,6 +86,9 @@ body, h1, h2, h3, p, ul, dl, dd {
     flex-direction: column;
     font-size: 1.5em;
     /* justify-content: space-around */
+}
+.name {
+    color: white;
 }
 
 
@@ -186,27 +189,32 @@ body {
 
 .icons {
     margin-bottom: 10px;
-    /* margin-right: 1rem; */
     display: inline-block;
     font-size: 40px;
-    margin: 25px;
+    margin-right: 20px;
 }
 
 .icons2 {
     margin: 0px 0;
+    margin-bottom: 5px;
     display: inline-block;
-    font-size: 40px;
+    font-size: 37px;
+}
+.fa-github-square:before {
+    padding: 5px 5px;
 }
 
-
+.fa-linkedin-in:before {
+    padding: 8px 8px;
+}
 .fa-github-square:hover {
     color: orange;
-    padding: 9px;
     box-shadow: 0 0 0 4px rgb(239, 235, 241);
+    padding: 0px;
 }
 .fa-linkedin-in:hover {
     color: blue;
-    padding: 5px;
+    /* padding: 3px; */
     box-shadow: 0 0 0 4px rgb(239, 235, 241);
 }
 
@@ -274,11 +282,10 @@ li {
     flex-direction: row;
 }
 
-.winfoHack, .PersonalWeb, .play-me{
+.winfoHack, .PersonalWeb, .play-me {
     display: flex;
     margin: 2em 1em 2em 1px;
     width: 150px;
-    /* height: 44px; */
     cursor: pointer;
     background: #F67280;
     box-shadow: rgba(255, 163, 148, 0.1) 0px 5px 10px;
@@ -306,6 +313,25 @@ h4 {
     font-size: 2em;
 }
 
+.timeline ul p, .intro, .profile-section{
+    color: white;
+    /* font-size: 1.2em; */
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 2em; 
+}
+
+.intro {
+    font-size: 1.2em;
+}
+
+.profile-header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
 @media (min-width: 768px ) {
     .portrait-anm {
         position: fixed;
@@ -360,17 +386,11 @@ h4 {
         padding-inline-start: 20%; 
     } 
 
-
-    .timeline ul p{
-        color: white;
-        font-size: 1.2em;
-        line-height: 1.5em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        line-height: 2em; 
-    }
-
     .timeline .year ul{
         font-style: italic;
-      }
+        }
+    .intro {
+        font-size: 2em;
+        margin-left: 3%;
+    }
 }
