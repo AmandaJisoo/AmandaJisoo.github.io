@@ -269,10 +269,14 @@ li {
     font-size: 1.5em;
 }
 
-
-.winfoHack, .PersonalWeb{
+.btn {
     display: flex;
-    margin: 2em 0em 2em 0px;
+    flex-direction: row;
+}
+
+.winfoHack, .PersonalWeb, .play-me{
+    display: flex;
+    margin: 2em 1em 2em 1px;
     width: 150px;
     /* height: 44px; */
     cursor: pointer;
@@ -283,6 +287,7 @@ li {
     font-family: Alegreya;
     font-weight: bold;
     font-size: 30px;
+    padding: 18px;
     justify-content: center;
     color: #ffffff;
 }
