@@ -333,6 +333,13 @@ h4 {
     display: flex;
     flex-direction: row;
 }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+
+}
 @media (min-width: 768px ) {
     .portrait-anm {
         position: fixed;
