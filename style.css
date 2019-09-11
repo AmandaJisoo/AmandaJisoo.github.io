@@ -293,6 +293,8 @@ li {
     padding: 10px;
     justify-content: center;
     color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .button:hover,
