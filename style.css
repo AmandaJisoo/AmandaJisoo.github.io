@@ -340,6 +340,7 @@ ul {
     font-size: 100%;
 
 }
+
 @media (min-width: 768px ) {
     .portrait-anm {
         position: fixed;
